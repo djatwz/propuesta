@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    
+}
+
+
+.contenedor{
+    
+    width: 100vw;
+    height: 50vw;
+    text-align: center;
+    background: url(cabaña.jpg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    
+    
+}
+
+p{
+    font-size: xx-large;
+    padding: 15%;
+    color: rgb(0, 0, 0);
+}
+
+button{
+    font-size: xx-large;
+    padding: 0.75em;
+}
+
+#yesBtn{
+    transform: translate(-100%,0);
+}
+
+#noBtn{
+    position: absolute;
+}
