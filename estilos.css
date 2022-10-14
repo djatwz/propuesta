@@ -16,6 +16,11 @@
     
     
 }
+.text {
+    margin-top: -40px;
+    text-align: center;
+    
+}
 
 p{
     font-size: xx-large;
@@ -25,7 +30,8 @@ p{
 
 button{
     font-size: xx-large;
-    padding: 0.75em;
+    padding: 0.25em;
+    margin-top: 132px;
 }
 
 #yesBtn{
@@ -34,4 +40,50 @@ button{
 
 #noBtn{
     position: absolute;
+}
+
+@media(min-width: 950px){
+    *{
+        margin: 0;
+        
+    }
+    
+    
+    .contenedor{
+        
+        width: 100vw;
+        height: 50vw;
+        text-align: center;
+        background: url(cabaña.jpg);
+        background-repeat: no-repeat;
+        background-size: 80%;
+        background-position: center;
+        
+        
+    }
+    .text {
+        margin-top: -150px;
+        
+    }
+    
+    p{
+        font-size: xx-large;
+        padding: 15%;
+        color: rgb(0, 0, 0);
+    }
+    
+    button{
+        font-size: xx-large;
+        padding: 0.75em;
+        margin-top: 550px;
+    }
+    
+    #yesBtn{
+        transform: translate(-100%,0);
+    }
+    
+    #noBtn{
+        position: absolute;
+    }
+
 }
